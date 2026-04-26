@@ -1,0 +1,140 @@
+.admin {
+  padding: 2rem;
+}
+
+.admin h1 {
+  color: #8b4513;
+  margin-bottom: 2rem;
+}
+
+.admin-section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.admin-section h2 {
+  margin-bottom: 1rem;
+  color: #8b4513;
+}
+
+.admin-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.admin-section input,
+.admin-section select,
+.admin-section textarea {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+}
+
+.image-upload-section {
+  border: 2px dashed #8b4513;
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.image-upload-section label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #8b4513;
+}
+
+.image-upload-section input[type="file"] {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.image-preview {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.image-preview img {
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.image-preview p {
+  color: green;
+  font-weight: bold;
+}
+
+.admin-section button {
+  padding: 0.5rem 1rem;
+  background-color: #8b4513;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admin-section button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.admin-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-item,
+.order-item {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.product-item > div {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.delete-btn {
+  padding: 0.5rem 1rem;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.dark .admin-section {
+  border-color: #666;
+  background: #444;
+}
+
+.dark .admin-section input,
+.dark .admin-section select,
+.dark .admin-section textarea {
+  background: #555;
+  color: white;
+  border-color: #666;
+}
+
+.dark .image-upload-section {
+  border-color: #daa520;
+}
+
+.dark .image-upload-section label {
+  color: #daa520;
+}
